@@ -158,6 +158,8 @@ $(document).ready(function () {
     .then(function (response) {
       const data = response.data;
 
+      document.title = `${data.name} - Career Details`;
+
       if (!data || !data.name) {
         $("#careerDetails").html(
           '<div class="alert alert-danger">Career not found.</div>'
