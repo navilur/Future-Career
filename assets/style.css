@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Farro";
+}
+
+.nav-link:hover {
+  color: #e87000;
+}
+
+.active {
+  color: #e87000 !important;
+}
+
+.navbar-brand img {
+  max-height: 36px;
+  width: auto;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card a {
+  text-decoration: none;
+  border: none;
+  background: #e87000 !important;
+  color: #fff !important;
+}
+
+.title {
+  color: #e87000;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.subTitle {
+  color: #212529bf;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.placeholder {
+  animation: placeholder-glow 1.5s infinite;
+}
+
+.pagination .page-link {
+  color: #e87000;
+}
+
+.pagination .active .page-link {
+  border-color: #e87000;
+  background: #e87000 !important;
+  color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+  .card img {
+    height: 250px;
+  }
+}
